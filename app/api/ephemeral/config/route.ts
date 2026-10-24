@@ -9,6 +9,7 @@ import {
   getCleanupStats,
 } from "@/lib/ephemeral-cleanup";
 import { EPHEMERAL_CONFIG } from "@/lib/ephemeral-config";
+import { canManageEphemeralConfig } from "@/lib/authorization/group-permissions";
 
 /**
  * GET /api/ephemeral/config - Get ephemeral message configuration
