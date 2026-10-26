@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "security/issue-292-implement-message-retention-policy-service",
+    "security/issue-293-create-a-group-permission-policy-api"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "security/issue-292-implement-message-retention-policy-service": "main",
+    "security/issue-293-create-a-group-permission-policy-api": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "security/issue-292-implement-message-retention-policy-service",
+    "security/issue-293-create-a-group-permission-policy-api"
+  ]
+}
